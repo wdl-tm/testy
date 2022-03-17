@@ -1,0 +1,13 @@
+app:
+
+server:
+  port: 8080
+  host: 0.0.0.0
+
+sockets:
+  health:
+    name: health
+    port: 8081
+  metrics:
+    name: metrics
+    port: 8082
